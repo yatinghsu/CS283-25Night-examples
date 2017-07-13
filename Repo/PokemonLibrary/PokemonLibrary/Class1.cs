@@ -19,6 +19,6 @@ namespace PokemonLibrary
         public string powerup;
         public string evolve;
         public string tackle;
-        public string powerwhip;
+        public string attack;
     }
 }
