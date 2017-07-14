@@ -11,7 +11,7 @@ namespace CS283_Homework1
     {
         private static void Main(string[] args)
         {
-            Pokemon apokemon = new Pokemon()
+            Pokemon monster = new Pokemon()
             {
                 name = "妙蛙種子",
                 hight = "0.67 m",
@@ -28,18 +28,18 @@ namespace CS283_Homework1
             };
             Console.WriteLine(
                 "怪物名稱：{0}, 身高：{1}, 體重：{2}, 性別：{3}, 類別：{4}, 血量：{5}, 星星沙子：{6}, 妙蛙種子的糖果：{7}, 強化：{8}, 進化：{9}, 普通攻擊：{10}, 蓄力攻擊：{11}"
-                , apokemon.name
-                , apokemon.hight
-                , apokemon.weight
-                , apokemon.gender
-                , apokemon.type
-                , apokemon.hp
-                , apokemon.stardust
-                , apokemon.candy
-                , apokemon.powerup
-                , apokemon.evolve
-                , apokemon.tackle
-                , apokemon.attack
+                , monster.name
+                , monster.hight
+                , monster.weight
+                , monster.gender
+                , monster.type
+                , monster.hp
+                , monster.stardust
+                , monster.candy
+                , monster.powerup
+                , monster.evolve
+                , monster.tackle
+                , monster.attack
                 );
         }
     }
