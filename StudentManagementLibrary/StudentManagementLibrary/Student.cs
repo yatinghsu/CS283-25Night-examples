@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Example02
+namespace StudentManagementLibrary
 {
-    public class aStudent
+    public class Student
     {
         public string name;
         public string phone;
