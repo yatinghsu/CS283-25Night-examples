@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Examples01
+namespace Example01
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
             Console.Write("請輸入數字1:");
+
             int number1 = 0;
             int.TryParse(Console.ReadLine(), out number1);
             Console.Write("請輸入數字2:");

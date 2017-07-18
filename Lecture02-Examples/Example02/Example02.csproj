@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26548B4C-E6A2-430E-9007-AB48849CC11B}</ProjectGuid>
+    <ProjectGuid>{1EE05393-0340-4F61-A4B7-9FC18B7BE2E9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Example02</RootNamespace>
     <AssemblyName>Example02</AssemblyName>
@@ -64,6 +64,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -77,6 +78,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bulbasaur_candy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pokemon-Go-Stardust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PokemonLibrary\PokemonLibrary\PokemonLibrary.csproj">
+      <Project>{7764345c-f7ef-45e7-8de5-410e02b45bda}</Project>
+      <Name>PokemonLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

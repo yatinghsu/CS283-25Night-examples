@@ -16,7 +16,7 @@ namespace Example02
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PokemonNameLable());
+            Application.Run(new Form1());
         }
     }
 }
